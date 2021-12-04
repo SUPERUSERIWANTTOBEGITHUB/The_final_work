@@ -12,5 +12,14 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/option_1"
+                android:title="@string/option_1" />
+            <item android:id="@+id/option_2"
+                android:title="@string/option_2" />
+            <item android:id="@+id/option_3"
+                android:title="@string/option_3" />
+        </menu>
     </style>
+
 </resources>
